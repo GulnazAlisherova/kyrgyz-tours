@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kyrgyz-tour</title>
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link rel="stylesheet" href="./input.css" />
+  </head>
+
+  <body>
+    <h1 class="border-2 border-red-600 text-transparent text-2xl"></h1>
+    <div class="container  mx-auto">
+      <nav class="flex items-start justify-between">
+        <img class="mb-[2rem]" src="./assets/logo.png" alt="logo" width="200" />
+        <ul class="flex justify-end uppercase font-medium py-1 px-1">
+          <li class="w-[100px] m-[10px]">
+            <a href="#">Home</a>
+          </li>
+          <li class="w-[120px] m-[10px]">
+            <a href="#">Who we are</a>
+          </li>
+          <li class="w-[100px] m-[10px]">
+            <a href="#">Contact us</a>
+          </li>
+        </ul>
+      </nav>
+ 
+<!-- 
+      <div class="flex  mt-20 p-[16px]">
+        <div>
+          <h3 class="font-bold">Ski/Splitboard Tours</h3>
+          <a href=""><img src="./assets/ki.jpg" alt="" width="290" /></a>
+        </div>
+        <div>
+          <h3 class="font-bold">Tekking/Horseback Rides</h3>
+          <a href=""><img src="./assets/boot.jpg" alt="" width="290" /></a>
+        </div>
+        <div>
+          <h3 class="font-bold">Wheel Tours</h3>
+          <a href=""><img src="./assets/shina.jpg" alt="" width="290" /></a>
+        </div>
+      </div> -->
+ 
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</html>
